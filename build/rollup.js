@@ -62,7 +62,7 @@ const min = Object.assign({}, umd, {
 })
 
 const es = Object.assign({}, umd, {
-  output: output('esm.js', 'es'),
+  output: output('esm.ts', 'es'),
 })
 
 rimraf.sync('dist')
